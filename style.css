@@ -153,6 +153,12 @@
     font-size: 1rem;
     color:rgba(255, 255, 255, 0.5);
 }
+.ply-icon{
+    color: #fff;
+    position: absolute;
+    top: 43%;
+    left: 56%;
+}
 .btn{
     font-size: 1.2rem;
     background-color: rgb(230, 83, 60);
@@ -529,6 +535,9 @@
 
   /*Responsive Start*/
 @media screen and (max-width:576px) {
+    
+  /*Responsive Start*/
+@media screen and (max-width:576px) {
     .nav-option{
         display: none;
     }
@@ -566,8 +575,7 @@
         font-weight: 400;             
     }
     .banner-text p{
-        font-size: 14px;
-        color:rgba(17, 17, 17, 0.5);
+        font-size: 14px;       
         margin-top: 20px;     
     }
     .banner-image{
@@ -576,6 +584,18 @@
     }
     .banner-image image{
         width: 100%;        
+    }
+    .right-text{
+        top: 104%;
+        right: 14%;
+
+        
+    }
+    .left-text{
+       
+        top: 140%;
+        left: 5%;
+        
     }
     .btn{
         font-size: 1rem;                   
@@ -588,18 +608,52 @@
     }
     .image-container{
         grid-template-columns: repeat(1, 1fr);
+        margin-top: 40px;
     }
     .habits-content h3{  
        font-size: 2rem;        
         margin-top: 400px;
         
     }
+    .habits-content p{
+       
+        font-size: 1rem;
+       
+       
+    }
     
     .image-col img{
         width: 100%;
-       margin-left: 16px;
-       margin-top: 5px;
+       margin: 10px 140px 0px 140px;
+      
        
     }
-   
+    .image-col h4{
+        
+    
+        
+        
+        
+    }
+    .image-col p{
+        
+     
+        
+        
+        
+    }
+    .our-team-content h3 {
+       
+        margin-top: 500px;
+       
+    }
+    .our-team-card{
+       
+        grid-template-columns: repeat(1, 1fr);  
+        margin-top: 600px;
+        
+        
+    }
+    
 }
+   

@@ -680,6 +680,20 @@ hr{
     .image-col h4{
         margin-top: 0;
     }
+    .popular-card{     
+        grid-template-columns: repeat(1,1fr);     
+       
+        }
+       .img-card img{
+           margin: 0 15px;
+            width: 90%;
+            
+            }
+            .popular-container h3{
+                font-size: 2rem;
+                
+                }
+                
     
    
     
